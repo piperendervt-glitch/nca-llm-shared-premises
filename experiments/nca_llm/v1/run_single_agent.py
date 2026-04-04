@@ -8,14 +8,11 @@ No inter-agent communication. One shot per task.
 
 import argparse
 import json
-import sys
 import time
 from pathlib import Path
 
 import httpx
 
-# Task generator from sdnd-proof
-sys.path.insert(0, "C:/Users/pipe_render/sdnd-proof/src")
 from task_generator import generate_tasks as generate_world_consistency_tasks
 
 # ── Config ────────────────────────────────────────────────────────────────────
