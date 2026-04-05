@@ -1,0 +1,49 @@
+{
+  "flip_rates": {
+    "world_consist": 0.024,
+    "logic_syllogism": 0.0,
+    "logic_contradict": 0.0,
+    "math_middle": 0.032
+  },
+  "reference_metrics": {
+    "world_consist": {
+      "split_rate": 0.15,
+      "cal_err": 0.1832,
+      "cfr_homo": 0.3059,
+      "cfr_het": 0.1429
+    },
+    "math_middle": {
+      "split_rate": 0.3393,
+      "cal_err": 0.0633,
+      "cfr_homo": 0.0946,
+      "cfr_het": 0.1609
+    },
+    "logic_syllogism": {
+      "split_rate": 0.1,
+      "cal_err": 0.1058,
+      "cfr_homo": 0.0,
+      "cfr_het": 0.0
+    },
+    "logic_contradict": {
+      "split_rate": 0.2,
+      "cal_err": 0.0767,
+      "cfr_homo": 0.0625,
+      "cfr_het": 0.0
+    }
+  },
+  "correlations": {
+    "flip_rate vs split_rate": {
+      "r": 0.6681,
+      "p": 0.3319
+    },
+    "flip_rate vs cal_error": {
+      "r": 0.1568,
+      "p": 0.8432
+    },
+    "flip_rate vs CFR_diff": {
+      "r": -0.0909,
+      "p": 0.9091
+    }
+  },
+  "verdict": "PARTIAL"
+}
