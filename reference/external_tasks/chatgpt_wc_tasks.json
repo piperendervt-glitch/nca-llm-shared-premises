@@ -1,0 +1,902 @@
+[
+  {
+    "task_id": "ext_physics_001",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では水は高温になると凍る",
+    "statement": "やかんの水を強く加熱すると氷になった。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_002",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では火は物を温めず、冷やす。",
+    "statement": "暖炉の前に置いた金属の棒はさらに冷たくなった。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_003",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では植物は暗闇で最もよく育つ。",
+    "statement": "地下室に置かれた苗は日なたの苗より大きく伸びた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_004",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では磁石は鉄を引き寄せず、遠ざける。",
+    "statement": "磁石を近づけると鉄くぎは後ろへ動いた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_005",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では雨は空から地面へではなく、地面から空へ向かって降る。",
+    "statement": "水たまりの水が空へ吸い上げられるように上っていった。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_006",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では氷は触れたものを冷やさず、やけどさせる。",
+    "statement": "素手で氷を握った人の指にやけどの跡ができた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_007",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では木は乾くほど重くなる。",
+    "statement": "よく乾かした薪は、雨にぬれた薪より持ち上げにくかった。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_008",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では石は水に浮き、羽は沈む。",
+    "statement": "池に投げた石は浮かび、羽は底へ沈んだ。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_009",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では種は水を与えると発芽せず、乾いた土で芽を出す。",
+    "statement": "水をかけなかった鉢の種のほうが先に芽を出した。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_010",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では鳥は空気中より水中で呼吸しやすい。",
+    "statement": "川に潜った鳥は水中で長く元気にしていた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_011",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では金属は冷やすとやわらかくなる。",
+    "statement": "冷蔵庫で冷やした鉄の棒は前より硬くなった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_012",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では塩は水を甘くする。",
+    "statement": "塩を入れたスープは塩辛くなった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_013",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では影は自ら光を放つ。",
+    "statement": "濃い影の部分だけ暗いままだった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_014",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界ではガラスは叩くほど柔らかく曲がる。",
+    "statement": "ハンマーで叩いたガラス板はまったく曲がらず硬いままだった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_015",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では雪は高温の場所で積もる。",
+    "statement": "真夏の砂漠では雪がまったく積もらなかった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_016",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では花は月光だけで光合成する。",
+    "statement": "夜通し月光を浴びた花は元気にならなかった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_017",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では音は真空中で最もよく伝わる。",
+    "statement": "真空容器の中ではベルの音が聞こえなくなった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_018",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では煙は火を弱めず、強くする。",
+    "statement": "煙が増えるほど焚き火は弱くなった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_019",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では人は眠ると体温が大きく上がる。",
+    "statement": "彼は眠っている間に体温が下がった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_physics_020",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では蜜は虫を遠ざける。",
+    "statement": "甘い蜜を置いたら虫が集まってきた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_001",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では図書館で静かにするのは無作法で、大声で話すのが礼儀である。",
+    "statement": "図書館で大きな声で挨拶した彼は礼儀正しいと褒められた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_002",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では結婚式では新郎新婦ではなく、招待客が白い服を着る。",
+    "statement": "結婚式では客が白い服を着て、新郎新婦は色のついた服を着ていた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_003",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では学校で遅刻した生徒が先生を評価する。",
+    "statement": "遅れて来た生徒が教師の授業態度に点数をつけた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_004",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では会社で上司が部下に敬語を使い、部下は上司にため口で話す。",
+    "statement": "部長は新入社員に丁寧語で話しかけた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_005",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では誕生日には本人ではなく友人が贈り物を受け取る。",
+    "statement": "誕生日の主役は何も受け取らず、友人が包みをもらった。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_006",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界ではレストランでは客が料理名を決め、店員はその場で名前を変える。",
+    "statement": "客の一声でスープの名前がその日だけ「空色汁」になった。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_007",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では裁判では被告が裁判官に判決を言い渡す。",
+    "statement": "被告人が裁判官に判決文を読み上げた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_008",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では病院では患者が医師に診断書を書く。",
+    "statement": "診察のあと、患者が医師の健康状態を診断書にまとめた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_009",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では電車では席を譲られた人が立ち、譲った人が座るのが礼儀である。",
+    "statement": "老人に席を譲った若者がそのまま座り、老人は立った。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_010",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では会議では最初に結論を隠し、最後まで誰にも言わないのが高評価である。",
+    "statement": "発表者は結論を最後まで伏せたので称賛された。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_011",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では郵便は受取人ではなく差出人が開封する決まりである。",
+    "statement": "届いた手紙を受取人がその場で開けた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_012",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では店では値札より高く払うほど節約上手とされる。",
+    "statement": "彼は値札より安く払って節約家だと称賛された。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_013",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では面接では応募者が会社を採用するか決める。",
+    "statement": "面接官が応募者を採用すると一方的に決めた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_014",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では葬式では参列者が笑わないと失礼にあたる。",
+    "statement": "参列者は全員静かに悲しみ、それで礼儀正しいと評価された。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_015",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では旅行では目的地に着かないことが成功とされる。",
+    "statement": "列車が予定どおり目的地に着いたので大成功と祝われた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_016",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では選挙では最も票の少ない候補が当選する。",
+    "statement": "最も多く票を集めた候補がそのまま当選した。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_017",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界ではスポーツ大会ではゴールに入れない方が勝者になる。",
+    "statement": "一番多く得点したチームが優勝した。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_018",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では謝罪は「ありがとう」と言うことで成立し、「ごめんなさい」は無礼とされる。",
+    "statement": "彼は『ごめんなさい』と言って丁寧な謝罪をした。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_019",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では入社式では新人が会社に給料を払う。",
+    "statement": "新人は初日に会社から給料を受け取った。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_social_020",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では学校の試験では生徒が問題を出し、教師が解答する。",
+    "statement": "教師が問題を配り、生徒が解答欄を埋めた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_001",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では煙が出ると火が生まれる。",
+    "statement": "台所に煙が満ちた直後、コンロに火がついた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_002",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では足跡ができると人が歩き始める。",
+    "statement": "砂浜に足跡が現れたあとで旅行者が歩き出した。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_003",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では傘を開くと雨が降り始める。",
+    "statement": "彼が傘を開いた瞬間に雨が降り出した。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_004",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では笑い声が聞こえると面白い話が作られる。",
+    "statement": "客席から笑い声が起こったあとで芸人が冗談を思いついた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_005",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では割れた皿があると皿の落下が起こる。",
+    "statement": "床に割れた皿が見えたあとで棚の皿が落ちてきた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_006",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では影が伸びると太陽が昇る。",
+    "statement": "地面の影が長くなったあとで朝日が出た。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_007",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では宿題が提出されると先生が課題を出す。",
+    "statement": "生徒が答案を出した直後に教師が宿題を発表した。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_008",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では窓が曇ると寒さがやって来る。",
+    "statement": "窓が白く曇ったあとで部屋が冷え始めた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_009",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では涙がこぼれると悲しい出来事が起きる。",
+    "statement": "彼女が泣いたあとで悲報が届いた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_010",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では地面がぬれると水がまかれる。",
+    "statement": "校庭がぬれたあとで散水係が水をまいた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_011",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では拍手が起こると演奏が始まる。",
+    "statement": "演奏が始まったあとで客が拍手した。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_012",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では通知音が鳴るとメッセージが送信される。",
+    "statement": "彼がメッセージを送った直後に通知音が鳴った。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_013",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では傷あとができると転倒が起こる。",
+    "statement": "彼は先に転んでから膝に傷ができた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_014",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では試験結果が出ると勉強が始まる。",
+    "statement": "試験前に生徒たちが勉強を始めた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_015",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では波が立つと風が吹き始める。",
+    "statement": "強風が吹いたあとで海に波が立った。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_016",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では鍵が開くと人が鍵を回す。",
+    "statement": "彼が鍵を回した後で扉が開いた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_017",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では写真が現像されると撮影が行われる。",
+    "statement": "旅行先で撮影してから写真を現像した。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_018",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では湯気が出るとお湯が沸く。",
+    "statement": "やかんの水が沸いたので湯気が出た。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_019",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では歓声が上がると試合で得点が入る。",
+    "statement": "得点が入ったあとで観客が歓声を上げた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_causal_020",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では月が見えると夜になる。",
+    "statement": "日が沈んで夜になったあとで月が見えた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_001",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では軽い物ほど速く落ちる。",
+    "statement": "羽の方が鉄球より先に地面に着いた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_002",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では大きい容器ほど入る水の量が少ない。",
+    "statement": "大きなバケツの方が小さなコップより入る水が少なかった。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_003",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では長い道ほど早く目的地に着く。",
+    "statement": "遠回りの道を選んだ車が先に到着した。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_004",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では強い光ほど物を暗く見せる。",
+    "statement": "強力な照明を当てるほど壁が黒く見えた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_005",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では多く勉強するほど点数が下がる。",
+    "statement": "一番長く勉強した生徒の点数が最も低かった。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_006",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では値段が高いほど品質が悪い。",
+    "statement": "最高額の椅子が最も壊れやすかった。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_007",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では人数が多いほど会話は静かになる。",
+    "statement": "観客が増えるほど会場は静かになった。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_008",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では速度が速いほど移動距離が短くなる。",
+    "statement": "全力で走った選手ほど進んだ距離が短かった。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_009",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では厚い本ほどページ数が少ない。",
+    "statement": "分厚い本の方が薄い冊子よりページ数が少なかった。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_010",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では年を取るほど体は小さくなる。",
+    "statement": "大人になるにつれて身長が縮んだ。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_011",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では少ない雨ほど洪水を起こしやすい。",
+    "statement": "豪雨のせいで川があふれた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_012",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では短い列ほど待ち時間が長い。",
+    "statement": "長い列の方が待ち時間が長かった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_013",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では高い山ほど低い場所にある。",
+    "statement": "一番高い山が地域で最も高い場所にあった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_014",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では重い荷物ほど持ちやすい。",
+    "statement": "軽い袋の方が重い箱より持ちやすかった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_015",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では少ない食事ほど満腹になり、多い食事ほど空腹になる。",
+    "statement": "彼は大盛りを食べて満腹になった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_016",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では大きな声ほど相手に届かない。",
+    "statement": "ささやき声は届かず、大声は遠くまで届いた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_017",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では近い場所ほど到着に時間がかかる。",
+    "statement": "近所の店の方が遠い町より早く着いた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_018",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では強い薬ほど効き目が弱い。",
+    "statement": "一番強い薬が最もよく効いた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_019",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では広い部屋ほど入れる人数が少ない。",
+    "statement": "体育館には小部屋より多くの人が入れた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_quant_020",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では多い燃料ほど火が小さくなる。",
+    "statement": "薪を増やしたら火が大きくなった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_001",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では赤は冷たさの色で、見ると寒く感じる。",
+    "statement": "真っ赤な壁を見た人は寒さを覚えて震えた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_002",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では青い食べ物は辛く感じ、赤い食べ物は甘く感じる。",
+    "statement": "青い飴をなめた子どもは辛いと言った。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_003",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では高い音は暗く見え、低い音は明るく見える。",
+    "statement": "鈴の音を聞くと部屋が暗く見えた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_004",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では甘いにおいは苦い味として感じられる。",
+    "statement": "花の甘い香りをかいだ彼は口に苦みを感じた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_005",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では柔らかい物ほどざらざらに感じ、硬い物ほどなめらかに感じる。",
+    "statement": "綿を触ると砂のようにざらついて感じた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_006",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では白色は最も熱く見え、黒色は最も冷たく見える。",
+    "statement": "白い金属板は見るだけで最も熱そうに感じられた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_007",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では静かな場所ほど騒がしく聞こえる。",
+    "statement": "無音の部屋に入った人は耳がうるさいと訴えた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_008",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では酸っぱい味は甘い香りとして感じられる。",
+    "statement": "レモンを口にした人は甘い香りが広がると感じた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_009",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では緑色の光は金属音として聞こえる。",
+    "statement": "緑のランプが点くたびに金属の響きが聞こえた。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_010",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では苦い物は舌に冷たく、甘い物は舌に熱く感じる。",
+    "statement": "苦い薬を飲んだ人は舌がひんやりすると言った。",
+    "label": true,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_011",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では黄色は最も静かな色で、見ると音が遠のく。",
+    "statement": "真っ黄色の旗を見た瞬間、周囲の音が大きくなった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_012",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では丸い形は酸っぱく見え、角ばった形は甘く見える。",
+    "statement": "四角い菓子を見た子どもは酸っぱそうだと言った。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_013",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では香ばしいにおいは青く見える。",
+    "statement": "焼きたてのパンの香りをかいだ人は茶色を思い浮かべた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_014",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では冷たい物体は高い音に聞こえ、熱い物体は低い音に聞こえる。",
+    "statement": "熱い鍋に触れた人は高い音がすると感じた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_015",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では硬そうに見える布ほど、実際の手触りはふわふわである。",
+    "statement": "ごわごわに見える毛布を触ったら、さらに硬く感じた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_016",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では紫色は甘い音として聞こえる。",
+    "statement": "紫の照明を見た人は苦い音だと感じた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_017",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では苦いにおいは白く見える。",
+    "statement": "苦い薬品のにおいをかいでも、白さは感じなかった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_018",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では小さな音ほど重く感じ、大きな音ほど軽く感じる。",
+    "statement": "爆音を聞いた人は音が重いと感じた。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_019",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では光る物は無臭に感じ、暗い物は強く香るように感じる。",
+    "statement": "暗い箱を見ても、何の香りも強く感じなかった。",
+    "label": false,
+    "source": "ChatGPT"
+  },
+  {
+    "task_id": "ext_sense_020",
+    "task_set": "external_wc",
+    "task_type": "sensory_reversed",
+    "world_rule": "この世界では塩味は丸い形として見え、甘味は尖った形として見える。",
+    "statement": "砂糖水を飲んだ人は丸い形を思い浮かべた。",
+    "label": false,
+    "source": "ChatGPT"
+  }
+]

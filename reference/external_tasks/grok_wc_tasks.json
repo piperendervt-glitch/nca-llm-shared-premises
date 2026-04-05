@@ -1,0 +1,902 @@
+[
+  {
+    "task_id": "ext_physics_001",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では水は高温になると凍る",
+    "statement": "鍋に入れた水を火にかけると氷になった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_002",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では水は高温になると凍る",
+    "statement": "冷蔵庫に入れた水がすぐに凍らなかった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_003",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では重いものほどゆっくり落下する",
+    "statement": "鉄の玉を落としたら羽より遅く地面に着いた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_004",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では重いものほどゆっくり落下する",
+    "statement": "鉄の玉を落としたら羽より速く地面に着いた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_005",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では植物は暗闇でしか育たない",
+    "statement": "暗い部屋に置いた植物が大きく成長した",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_006",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では植物は暗闇でしか育たない",
+    "statement": "明るい日向に置いた植物が枯れた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_007",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では火は冷たい",
+    "statement": "炎に手を近づけたら手が冷たくなった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_008",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では火は冷たい",
+    "statement": "炎に手を近づけたら火傷をした",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_009",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では音は光より速く伝わる",
+    "statement": "雷が鳴った後に光が見えた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_010",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では音は光より速く伝わる",
+    "statement": "雷が光った後に音が聞こえた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_011",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では磁石は同じ極同士で引き合う",
+    "statement": "N極とN極を近づけたら強くくっついた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_012",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では磁石は同じ極同士で引き合う",
+    "statement": "N極とN極を近づけたら反発した",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_013",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では時間が逆方向に流れる",
+    "statement": "朝起きたら昨日より若返っていた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_014",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では時間が逆方向に流れる",
+    "statement": "朝起きたら昨日より年を取っていた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_015",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では光は曲がらない",
+    "statement": "プリズムを通した光が一直線に進んだ",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_016",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では光は曲がらない",
+    "statement": "プリズムを通した光が虹色に分かれた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_017",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では空気は固体である",
+    "statement": "風を切ると固い壁にぶつかったような感触があった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_018",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では空気は固体である",
+    "statement": "風が吹いても何も感じなかった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_019",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では電気は冷たい",
+    "statement": "電池に触れたら手が冷たくなった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_physics_020",
+    "task_set": "external_wc",
+    "task_type": "physics_reversed",
+    "world_rule": "この世界では電気は冷たい",
+    "statement": "電池に触れたら手が熱くなった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_001",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では年上が年下に敬語を使う",
+    "statement": "おじいさんが孫に丁寧な敬語で話した",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_002",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では年上が年下に敬語を使う",
+    "statement": "おじいさんが孫にタメ口で話した",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_003",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界ではお金は借りるほど価値が上がる",
+    "statement": "借金をした人はお金持ちになった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_004",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界ではお金は借りるほど価値が上がる",
+    "statement": "借金をした人は貧乏になった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_005",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では嘘をついた人が尊敬される",
+    "statement": "大嘘をついた政治家が英雄になった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_006",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では嘘をついた人が尊敬される",
+    "statement": "正直に話した政治家が英雄になった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_007",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では遅刻した人が褒められる",
+    "statement": "会議に1時間遅れた人が皆から称賛された",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_008",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では遅刻した人が褒められる",
+    "statement": "時間通りに来た人が皆から非難された",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_009",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では贈り物は受け取った人がお礼を言う",
+    "statement": "プレゼントをもらった人が「ありがとう」と言い、渡した人が「すみません」と言った",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_010",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では贈り物は受け取った人がお礼を言う",
+    "statement": "プレゼントをもらった人が「すみません」と言った",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_011",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では失敗した人が昇進する",
+    "statement": "大きなミスをした社員が部長に昇進した",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_012",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では失敗した人が昇進する",
+    "statement": "大きなミスをした社員が降格した",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_013",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では静かにしている人が注目される",
+    "statement": "会議でずっと黙っていた人が皆から質問を受けた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_014",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では静かにしている人が注目される",
+    "statement": "会議でたくさん発言した人が皆から無視された",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_015",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では名前を呼ばないと相手が反応しない",
+    "statement": "名前を呼ばないと誰も振り向かなかった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_016",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では名前を呼ばないと相手が反応しない",
+    "statement": "名前を呼ばなくても皆が振り向いた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_017",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では褒められた人が怒る",
+    "statement": "褒められた社員が不機嫌になった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_018",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では褒められた人が怒る",
+    "statement": "褒められた社員が喜んだ",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_019",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では謝った人が勝つ",
+    "statement": "先に謝った人が議論で勝った",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_social_020",
+    "task_set": "external_wc",
+    "task_type": "social_reversed",
+    "world_rule": "この世界では謝った人が勝つ",
+    "statement": "先に謝った人が議論で負けた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_001",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では原因と結果が逆転する",
+    "statement": "雨が降った後に傘を差した",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_002",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では原因と結果が逆転する",
+    "statement": "傘を差した後に雨が降った",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_003",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では勉強すると忘れる",
+    "statement": "一生懸命勉強したら知識がなくなった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_004",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では勉強すると忘れる",
+    "statement": "一生懸命勉強したら知識が増えた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_005",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では運動すると疲れが溜まる",
+    "statement": "ジョギングしたら体が重くなった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_006",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では運動すると疲れが溜まる",
+    "statement": "ジョギングしたら体が軽くなった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_007",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では笑うと悲しくなる",
+    "statement": "大笑いしたら涙が出た",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_008",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では笑うと悲しくなる",
+    "statement": "大笑いしたら幸せな気分になった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_009",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では寝ると目が覚める",
+    "statement": "ベッドに入ったらすぐに目が覚めた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_010",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では寝ると目が覚める",
+    "statement": "ベッドに入ったら眠くなった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_011",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では本を読むと記憶が消える",
+    "statement": "小説を読んだら内容を忘れた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_012",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では本を読むと記憶が消える",
+    "statement": "小説を読んだら内容を覚えた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_013",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では働くほどお金が減る",
+    "statement": "一生懸命働いたら貯金が減った",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_014",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では働くほどお金が減る",
+    "statement": "一生懸命働いたら貯金が増えた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_015",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では褒めると嫌われる",
+    "statement": "友達を褒めたら嫌われた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_016",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では褒めると嫌われる",
+    "statement": "友達を褒めたら喜ばれた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_017",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では謝ると怒られる",
+    "statement": "謝ったら相手が怒り出した",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_018",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では謝ると怒られる",
+    "statement": "謝ったら相手が許してくれた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_019",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では努力すると失敗する",
+    "statement": "一生懸命練習したら試合に負けた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_causal_020",
+    "task_set": "external_wc",
+    "task_type": "causal_reversed",
+    "world_rule": "この世界では努力すると失敗する",
+    "statement": "一生懸命練習したら試合に勝った",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_001",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では大きいものほど軽い",
+    "statement": "象は羽より軽かった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_002",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では大きいものほど軽い",
+    "statement": "象は羽より重かった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_003",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では速いものほど遅く見える",
+    "statement": "新幹線がゆっくり動いているように見えた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_004",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では速いものほど遅く見える",
+    "statement": "新幹線が速く動いているように見えた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_005",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では多いほど少ない",
+    "statement": "100個あると言ったら実際は10個だった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_006",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では多いほど少ない",
+    "statement": "100個あると言ったら実際は200個だった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_007",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では高いものほど安い",
+    "statement": "高級ブランド品が激安で売られていた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_008",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では高いものほど安い",
+    "statement": "高級ブランド品が異常に高かった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_009",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では長いものほど短く感じる",
+    "statement": "1時間の講演が5分のように感じた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_010",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では長いものほど短く感じる",
+    "statement": "1時間の講演が3時間のように感じた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_011",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では狭い場所ほど広く感じる",
+    "statement": "狭い部屋がとても広く感じた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_012",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では狭い場所ほど広く感じる",
+    "statement": "狭い部屋がとても狭く感じた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_013",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では少ないほど多い",
+    "statement": "1個しかないと言ったら100個あった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_014",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では少ないほど多い",
+    "statement": "1個しかないと言ったら本当に1個しかなかった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_015",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では遅いほど速い",
+    "statement": "遅い電車が早く着いた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_016",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では遅いほど速い",
+    "statement": "遅い電車が予定より遅れた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_017",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では安いものほど高級",
+    "statement": "100円ショップの商品が高級品だった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_018",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では安いものほど高級",
+    "statement": "100円ショップの商品が安物だった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_019",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では短いものほど長い",
+    "statement": "短い小説が長編のように感じた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_quantity_020",
+    "task_set": "external_wc",
+    "task_type": "quantity_reversed",
+    "world_rule": "この世界では短いものほど長い",
+    "statement": "短い小説が短く感じた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_001",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では甘いものが苦く感じる",
+    "statement": "チョコレートを食べたら苦かった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_002",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では甘いものが苦く感じる",
+    "statement": "チョコレートを食べたら甘かった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_003",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では赤色が青く見える",
+    "statement": "信号の赤が青く見えた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_004",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では赤色が青く見える",
+    "statement": "信号の赤が赤く見えた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_005",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では音が高いほど低く聞こえる",
+    "statement": "高い声が低く聞こえた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_006",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では音が高いほど低く聞こえる",
+    "statement": "高い声が高く聞こえた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_007",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では痛みが快感になる",
+    "statement": "注射を打ったら気持ちよかった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_008",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では痛みが快感になる",
+    "statement": "注射を打ったら痛かった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_009",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では匂いが逆転する",
+    "statement": "腐った魚が良い香りがした",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_010",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では匂いが逆転する",
+    "statement": "腐った魚が嫌な臭いがした",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_011",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では触ると冷たいものが熱い",
+    "statement": "氷に触ったら熱かった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_012",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では触ると冷たいものが熱い",
+    "statement": "氷に触ったら冷たかった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_013",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では暗い場所ほど明るく見える",
+    "statement": "真っ暗な部屋がまぶしかった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_014",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では暗い場所ほど明るく見える",
+    "statement": "真っ暗な部屋が暗く見えた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_015",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では苦いものが甘い",
+    "statement": "苦いコーヒーが甘く感じた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_016",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では苦いものが甘い",
+    "statement": "苦いコーヒーが苦く感じた",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_017",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では柔らかいものが硬い",
+    "statement": "クッションが石のように硬かった",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_018",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では柔らかいものが硬い",
+    "statement": "クッションが柔らかかった",
+    "label": false,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_019",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では静かな音がうるさい",
+    "statement": "ささやき声が爆音のように聞こえた",
+    "label": true,
+    "source": "Grok"
+  },
+  {
+    "task_id": "ext_perception_020",
+    "task_set": "external_wc",
+    "task_type": "perception_reversed",
+    "world_rule": "この世界では静かな音がうるさい",
+    "statement": "ささやき声が静かに聞こえた",
+    "label": false,
+    "source": "Grok"
+  }
+]
