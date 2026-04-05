@@ -4,8 +4,11 @@
 # Background: Start-Process powershell -ArgumentList "-File run_all_v5.ps1" -WindowStyle Minimized
 
 $python = "C:\Users\pipe_render\AppData\Local\Programs\Python\Python314\python.exe"
-$script = "run_nca_v5.py"
-$logfile = "..\..\..\..\results\nca_llm\v5\run_all_v5.log"
+$repoRoot = (Resolve-Path "$PSScriptRoot\..\..\..").Path
+$script = "$PSScriptRoot\run_nca_v5.py"
+$logfile = "$repoRoot\results\nca_llm\v5\run_all_v5.log"
+
+Set-Location $PSScriptRoot
 
 $experiments = @(
     # Priority 1: 7b conditions (most important)
