@@ -1,0 +1,18 @@
+{
+  "claude_wc": {
+    "cfr_homo": 30.6,
+    "cfr_het": 14.3,
+    "diff": 16.3
+  },
+  "grok": {
+    "cfr_homo": 21.2,
+    "cfr_het": 19.1,
+    "diff": 2.1
+  },
+  "chatgpt": {
+    "cfr_homo": 20.8,
+    "cfr_het": 20.0,
+    "diff": 0.8
+  },
+  "verdict": "FAIL"
+}
